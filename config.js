@@ -5,9 +5,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "PROVIDE YOUR SESSION ID",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~i0QHUZKZ#cWMLE78gEQfwiPvKg1kFRKOfbnXgfnpKV9De00Ha-Oc",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
@@ -21,7 +21,7 @@ ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat     
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -31,7 +31,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/mry39g.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "$",
     
     AUTO_BIO: process.env.AUTO_BIO || "false",// Replace with your authorized numbers
     
@@ -76,7 +76,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
